@@ -3,15 +3,248 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resturant Menu</title>
+    <title>Welcome to My Restaurent</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <style>
+        .ul1{
+            list-style: none;
+           display: flex;
+           gap: 30px;
+          margin-left:400px ;
+           
+           
+        }
+        li{
+            margin-left:30px;
+        }
+        nav{
+            background-color: rgb(249, 122, 122);
+            padding:7px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bold;
+            /* position: fixed;
+            width: 100vw; */
+           
+        }
+        a{
+            text-decoration: none;
+            color:black;
+        }
+        .name-res{
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            font-weight: bold;
+            text-align: center;
+            margin:5px;
+            color:brown;
+
+        }
+        .content{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: bold;
+            text-align: center;
+            font-size: 22px;
+            color:rgb(112, 9, 9);
+        }
+        h5{
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            /* font-style: italic; */
+            
+            /* font-weight: bold; */
+            font-size: 15px; 
+        }
+        .startes{
+            background-color: rgb(242, 205, 205);
+            height:250px;
+            margin:10px;
+            padding: 5px;
+            
+        }
+        .resimage{
+            height:300px;
+            width:500px;
+            padding:10px;
+        }
+        .exp-but{
+            padding:10px;
+            width:130px;
+           
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bold;
+            color: white;
+            background-color: rgb(237, 99, 99);
+            border-radius: 6px;
+            margin-left: 100px;
+        }
+        ul{
+            list-style-type: none;
+        }
+        footer{
+            background-color: rgb(249, 154, 154);
+            color:black;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bold;
+        }
+       
+    </style>
 </head>
 <body>
-    <center>
-        <iframe name="myIframe" src="" frameborder="1" width="400" height="200"></iframe><br>
-       <center> <a href="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1824.2416175853537!2d78.42834919194534!3d17.527729223906398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1743860386670!5m2!1sen!2sin"  target="myIframe">Click To See Resturant Location</a><br>
-          <a href="https://en.wikipedia.org/wiki/HTML" target="myIframe">Click To See Menu Card</a><br>
-            <a href="contact.html" target="myIframe">Click to See Contact Details</a><br>
-           
-        </center>
+    <div id="home">
+    <header>
+        <nav>
+            <ul class="ul1">
+                <a href="#home"><li>Home</li></a>
+                <a href="#menu"><li>Menu</li></a>
+                <a href="#services"><li>Services</li></a>
+                <a href="#support"><li>Support</li></a>
+                <a href="#preo"><li>PreOrders</li></a>
+            </ul>
+        </nav>
+    </header>
+    <h1 class="name-res">Paradise Restaurent</h1>
+    <marquee style="color: rgb(13, 10, 10);font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; background-color: rgb(249, 122, 122); font-size: 18px; padding: 5px;" behavior="scroll" direction="left">
+        Enjoy exclusive offers at Paradise Restaurant! Flat Rs. 100 off on orders above Rs. 299. Buy 2 Biryanis, get 1 free! Visit us today for the best Hyderabadi Biryani experience!
+    </marquee>
+    
+    <center><img src="https://www.paradisefoodcourt.in/images/gallery/restaurants/shamshabad/1.jpg" alt="" class="resimage">
+        <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_366/w7ntgnf7tcdoe8sxjco6" alt=""class="resimage"><br>
+        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/5a/a5/05/paradise-biriyani-hotel.jpg?w=900&h=500&s=1" alt="" class="resimage">
+        <button class="exp-but">Explore</button>
+    </center>
+    
+    </div>
+    <div id="menu">
+    <h1 class="name-res" style="background-color: rgb(240, 156, 156);">Menu Card</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <div class="startes">
+                    <h3 class="content">Veg & NonVeg Startes-------230/-</h3>
+                    <h5>* Paneer Tikka – Marinated cottage cheese grilled to perfection------230/-</h5>
+                    <h5>* Spring Rolls – Crispy rolls filled with veggies------230/-</h5>
+                    <h5>* Stuffed Mushrooms – Mushrooms loaded with cheese and spices------230/-</h5>
+                    <h5>* Hara Bhara Kabab – Spinach and green peas patty------230/-</h5>
+                    <h5>* Crispy Corn – Fried corn tossed with spices------230/-</h5>
+                    <h5>* Cheese Balls – Melted cheese inside a crispy coating------230/-</h5>
+                    
+                       
+                </div>
+
+            </div>
+            <div class="col-6">
+                <div class="startes">
+                    <h3 class="content">Main Course (Veg)</h3>
+                    
+                        <h5>* Paneer Butter Masala – Creamy and rich paneer curry------230/-</h5>
+<h5>* Dal Tadka – Flavorful lentils tempered with spices------230/-</h5>
+<h5>* Veg Biryani – Aromatic rice with mixed vegetables------230/-</h5>
+<h5>* Bhindi Masala – Stir-fried okra with Indian spices------230/-</h5>
+<h5>* Chole Masala – Spiced chickpea curry------230/-</h5>
+<h5>* Kadhai Mushroom – Mushrooms cooked in a spicy gravy------230/-</h5>
+
+                  
+
+                </div>
+
+            </div>
+            <div class="col-6">
+                <div class="startes">
+                    <h3 class="content">Main Course (Non-Veg)</h3>
+                    <h5>* Butter Chicken – Creamy tomato-based chicken curry------230/-</h5>
+                    <h5>* Fish Curry – Spiced and tangy fish in a flavorful sauce------230/-</h5>
+                    <h5>* Mutton Rogan Josh – Slow-cooked mutton in a rich gravy------230/-</h5>
+                    <h5>* Prawns Masala – Spicy prawns cooked with herbs------230/-</h5>
+                    <h5>* Chicken Biryani – Fragrant rice cooked with marinated chicken------230/-</h5>
+                    <h5>* Egg Curry – Boiled eggs simmered in a spiced gravy------230/-</h5>
+                    
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="startes">
+                    <h3 class="content">Deserts</h3>
+                    <h5>* Gulab Jamun – Soft milk-based dumplings soaked in syrup------230/-</h5>
+                    <h5>* Rasgulla – Spongy sweet soaked in sugar syrup------230/-</h5>
+                    <h5>* Chocolate Brownie – Rich and fudgy chocolate delight------230/-</h5>
+                    <h5>* Ice Cream – Various flaveors of creamy frozen dessert------230/-</h5>
+                    <h5>* Fruit Custard – Creamy custard mixed with fresh fruits------230/-</h5>
+                    <h5>* Cheesecake – Smooth and creamy dessert with a biscuit base------230/-</h5>
+                    
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<h2 class="name-res" style="background-color: rgb(239, 170, 170);">Support Click and Access</h2>
+<div id="support">
+<center>
+    <iframe name="myIframe" src="" frameborder="1px" width="600" height="400"></iframe><br>
+   <button style="margin-top:10px;background-color: rgb(236, 112, 112); border-radius: 10px; border-width:0px; height:40px; font-weight:bold"> <a href="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1824.2416175853537!2d78.42834919194534!3d17.527729223906398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1743860386670!5m2!1sen!2sin"  target="myIframe" >Click To See Resturant Location</a></button><br>
+   <button style="margin-top:10px;background-color: rgb(236, 112, 112); border-radius: 10px; border-width:0px; height:40px; font-weight:bold"><a href="#menu" target="myIframe">Click To See Menu Card</a></button><br>
+    <button style="margin-top:10px;background-color: rgb(236, 112, 112); border-radius: 10px; border-width:0px; height:40px; font-weight:bold">  <a href="contact.html" target="myIframe">Click to See Contact Details</a></button>
+       
+    </center>
+</div>
+<div id="services">
+<h2 class="name-res" style="background-color: rgb(239, 170, 170); margin:10px;">Services</h2>
+
+<p>
+    <h3 class="name-res">Food and Beverage Services</h3>
+    <center><ul>
+        <li><b>Dine-in Service:</b> Meals served to customers at tables in the restaurant.</li>
+        <li><b>Takeaway/To-go:</b> Customers order food and pick it up to eat elsewhere.</li>
+        <li><b>Delivery Service:</b> Food is delivered to the customer's location.</li>
+        <li><b>Catering:</b> Providing food services for events, parties, or corporate functions.</li>
+        <li><b>Drive-thru Service:</b> Common in fast food establishments for quick pickup.</li>
+    </ul></center>
+    <h3 class="name-res">Customer Service</h3>
+<center><ul>
+        <li><b>Table Service:</b> Waitstaff take orders, serve food, and handle payment.</li>
+        <li><b>Self-Service:</b> Customers order and collect their food themselves (e.g., buffets).</li>
+        <li><b>Online Ordering Support:</b> For delivery or takeaway, through website/apps.</li>
+        <li><b>Reservation Management:</b> Booking tables in advance, either online or by phone.</li>
+    </ul></center>
+    <h3 class="name-res">Ambience and Experience</h3>
+<center><ul>
+        <li><b>Interior Design & Cleanliness:</b> Comfortable seating, decor, and hygienic space.</li>
+        <li><b>Music/Entertainment:</b> Live music, TVs, or themed events.</li>
+        <li><b>Wi-Fi and Charging Stations:</b> Especially in cafes or casual dining spots.</li>
+    </ul></center>
+</p>
+
+</div>
+<div id="preo">
+    <h2 class="name-res" style="background-color: rgb(239, 170, 170); margin:10px;">Pre-Orders</h2>
+
+    
+    <form action="submit_preorder.php" method="post" style="background-color: #ffffff; padding: 20px; width: 300px; margin: auto; border-radius: 10px; box-shadow: 2px 2px 10px rgba(0,0,0,0.2);">
+        
+        <label for="name" style="color: #600000;">Full Name:</label><br>
+        <input type="text" id="name" name="name" required style="width: 100%; padding: 5px; margin-bottom: 10px; border: 1px solid #600000;"><br>
+        
+        <label for="email" style="color: #600000;">Email:</label><br>
+        <input type="email" id="email" name="email" required style="width: 100%; padding: 5px; margin-bottom: 10px; border: 1px solid #600000;"><br>
+        
+        <label for="product" style="color: #600000;">Product Name:</label><br>
+        <input type="text" id="product" name="product" required style="width: 100%; padding: 5px; margin-bottom: 10px; border: 1px solid #600000;"><br>
+        
+        <label for="quantity" style="color: #600000;">Quantity:</label><br>
+        <input type="number" id="quantity" name="quantity" required style="width: 100%; padding: 5px; margin-bottom: 10px; border: 1px solid #600000;"><br>
+        
+        <button type="submit" style="background-color: #600000; color: white; padding: 10px; width: 100%; border: none; border-radius: 5px;">Preorder Now</button>
+    
+    </form>
+
+
+</div>
+<footer>
+  <center><pre>Developed By Ajay Kumar. E mail : ajay@gmail.com 
+               @copyrights Reserved.2005</pre></center>
+</footer>
 </body>
 </html>
+
